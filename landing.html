@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <span style="color: #0E6970; font-weight: bold; font-size: 30px;">TEC</span>
+          </a>
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <!-- hero -->
+    <main>
+        <section class="hero">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>TRAINING EDGE CONSULTING</h1>
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut nunc risus. Nullam in mi in libero pretium finibus ac id elit. Maecenas eget felis at lacus lacinia elementum. Duis ut eleifend metus. Nam sit amet enim in risus blandit fringilla.</p>
+                    <button class="btn">get started</button>
+
+                    
+              </div>
+              <div class="col-md-6">
+                <img src="logo.png" alt="Image description">
+              </div>
+            </div>
+          </div>
+        </section>
+  </main>
+  <!-- services sliders -->
+  <section class="services-slider m-3">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#servicesCarousel" data-slide-to="1"></li>
+          <li data-target="#servicesCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img class="d-block w-100" src="img4.jpg" alt="First slide">
+              </div>
+              <div class="col-md-6">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>CONSULTION</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores et amet ducimus ea dolorem, officiis, quasi doloremque enim inventore eaque blanditiis tenetur veniam eveniet asperiores corporis odio dolor tempora beatae.</p>
+                  <button type="button" class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img class="d-block w-100" src="services.jpg" alt="Second slide">
+              </div>
+              <div class="col-md-6">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>FORMATION PROFETINNEL</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex eveniet ut esse quos omnis rem consequuntur nam, unde minus, obcaecati tempore, libero neque sequi officiis porro? Explicabo vitae asperiores impedit?</p>
+                  <button type="button" class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img class="d-block w-100" src="R.jpg" alt="Third slide">
+              </div>
+              <div class="col-md-6">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>ENCADREMENT DE RECHERCHES SCIENTIFIQUES</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, et pariatur deleniti id reprehenderit quasi? Ex, libero. Optio atque illo voluptatum quo aut ut, voluptas quibusdam? Et fuga dolorum nam.</p>
+                  <button type="button" class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          
+  
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- contact us form -->
+   
+  <div class="container">
+    <div class="form-container">
+      <h1>Contact Us</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!-- fooother -->
+  <footer class="footer-container text-light  m-3 p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Training Edge Consulting</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat, purus eu finibus blandit, ipsum mauris pretium neque, quis vestibulum turpis neque ac ex.</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Pages</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Contact</h2>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone"></i> (406) 555-01-0120</li>
+            <li><i class="fa fa-envelope"></i> trainingedgeconsulting@gmail.com</li>
+            <li><i class="fa fa-map-marker"></i> App 9 etage 4 Lot Jannah a Cote d'hotel Sunset Bd Med 6 Beni Mellal</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="landing.js"></script>
+</body>
+</html>
